@@ -1,0 +1,190 @@
+/*ORGANIZE BY APPERANCE SECTION */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+em {
+  font-weight: bold;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1, 5;
+  font-weight: 900;
+  text-align: left;
+}
+
+.h3-features {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.p-features {
+  color: #8f8f8f;
+  margin: 0% 7% 13%;
+}
+
+.h2-testimonials {
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.h2-pricing {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.h3-pricing {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.p-pricing {
+  color: #8f8f8f;
+}
+
+.h3-cta {
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.p-footer {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navegation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px; /* you use pixels because because we've got that responsiveness, so you  don't need it as a percentage or as a rem. Use a fix mesure like px. The 0 means 0 padding top and bottom and the 18 px mean left and right. For single padding you need to specify like in the .navbar */
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0%; /* the order of the % is top, right, left, bottom */
+}
+
+.button-align {
+  text-align: left;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 55%; /* 55% of the container that its in */
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.iphone {
+  position: relative; /* this has to do with the positions and z index. because of bootstrap we need to add this to the div the img is in */
+}
+
+/* Features */
+
+#features {
+  padding: 10% 14%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.icons-color {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icons-color:hover {
+  color: #ff4c68;
+}
+
+/* Testimoinal Section */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%; /* Radius 100% makes the image a circle */
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 10% 14%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-images {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Call To Action */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 20%;
+}
+
+/* Footer */
+
+#footer {
+  padding: 7% 20%;
+}
+
+.icon-footer {
+  margin: 20px 10px;
+}
